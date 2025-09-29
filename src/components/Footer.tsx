@@ -11,8 +11,8 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="mb-4">
               <img 
-                src="/Untitled design.png" 
-                alt="H&R Barbers Logo" 
+                src="/Untitled design.png"
+                alt=""
                 className="h-12 w-auto object-contain"
               />
             </div>
