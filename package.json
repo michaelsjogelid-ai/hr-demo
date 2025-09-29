@@ -7,16 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "build:production": "vite build --mode production",
-    "build:production": "vite build --mode production",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
+    "framer-motion": "^12.23.22",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.9.1"
+    "react-router-dom": "^7.9.1",
+    "react-use-measure": "^2.1.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

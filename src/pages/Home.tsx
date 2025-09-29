@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Values from '../components/Values';
 import About from '../components/About';
+import GoogleReviews from '../components/GoogleReviews';
 import StudentDiscounts from '../components/StudentDiscounts';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Values />
       <About />
+      <GoogleReviews />
       <StudentDiscounts />
     </div>
   );
