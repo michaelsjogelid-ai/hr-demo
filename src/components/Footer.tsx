@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex justify-center md:justify-start mb-6">
               <img 
-                src="/Untitled design.png" 
+                src="/barber-hero.png" 
                 alt="H&R Barbers Logo" 
                 className="h-12 md:h-16 w-auto object-contain max-w-full"
               />
