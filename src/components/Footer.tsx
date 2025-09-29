@@ -10,10 +10,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mr-3">
-                <Scissors className="w-8 h-8 text-black" />
-              </div>
-              <h3 className="text-2xl font-bold text-white">H&R Barbers</h3>
+              <img 
+                src="/Untitled design.png" 
+                alt="H&R Barbers Logo" 
+                className="h-16 w-auto mr-3"
+              />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Premium barbershop experience with precision grooming and exceptional service. 
