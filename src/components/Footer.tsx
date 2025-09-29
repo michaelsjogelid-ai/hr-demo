@@ -9,13 +9,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-2">
-            <div className="flex justify-center md:justify-start mb-6">
-              <img 
-                src="/barber-hero.png" 
-                alt="H&R Barbers Logo" 
-                className="h-12 md:h-16 w-auto object-contain max-w-full"
-              />
-            </div>
             <p className="text-gray-300 mb-6 max-w-md text-center md:text-left">
               Premium barbershop experience with precision grooming and exceptional service. 
               Elevate your look with our skilled barbers.
