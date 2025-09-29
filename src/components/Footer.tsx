@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src="/Untitled design.png" 
                 alt="H&R Barbers Logo" 
-                className="h-16 w-auto mr-3"
+                className="h-16 w-auto object-contain"
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
