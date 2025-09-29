@@ -28,7 +28,7 @@ const Navigation = () => {
               <img 
                 src="/Screenshot 2025-09-21 at 22.25.39.png" 
                 alt="H&R Barbers Logo" 
-                className="h-12 w-auto object-contain"
+                className="h-16 w-auto object-contain"
               />
             </Link>
           </div>
