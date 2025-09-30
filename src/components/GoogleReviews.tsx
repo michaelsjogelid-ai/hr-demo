@@ -7,6 +7,7 @@ const GoogleReviews = () => {
     {
       id: 1,
       name: "James Mitchell",
+      avatar: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Absolutely brilliant service! The barbers are skilled professionals who really know their craft. My fade was perfect and the attention to detail was outstanding.",
       date: "2 weeks ago"
@@ -14,6 +15,7 @@ const GoogleReviews = () => {
     {
       id: 2,
       name: "David Thompson",
+      avatar: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Best barbershop in Bristol! Been coming here for over a year and never disappointed. Great atmosphere, friendly staff, and consistently excellent cuts.",
       date: "1 month ago"
@@ -21,6 +23,7 @@ const GoogleReviews = () => {
     {
       id: 3,
       name: "Michael Roberts",
+      avatar: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Top quality service every time. The hot towel shave is incredible and the barbers really take their time to get everything perfect. Highly recommend!",
       date: "3 weeks ago"
@@ -28,6 +31,7 @@ const GoogleReviews = () => {
     {
       id: 4,
       name: "Alex Johnson",
+      avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Professional, clean, and great value for money. The student discount is a nice touch too. Always leave feeling fresh and looking sharp.",
       date: "1 week ago"
@@ -35,6 +39,7 @@ const GoogleReviews = () => {
     {
       id: 5,
       name: "Ryan Parker",
+      avatar: "https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Exceptional barbering skills and great customer service. The loyalty program is brilliant - free cut after 5 visits! Will definitely keep coming back.",
       date: "2 months ago"
@@ -42,6 +47,7 @@ const GoogleReviews = () => {
     {
       id: 6,
       name: "Tom Wilson",
+      avatar: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Clean, modern shop with experienced barbers. They really listen to what you want and deliver exactly that. The best fade I've ever had!",
       date: "3 weeks ago"
@@ -51,11 +57,11 @@ const GoogleReviews = () => {
   const ReviewCard = ({ review }: { review: typeof reviews[0] }) => (
     <div className="bg-white rounded-xl shadow-lg p-6 w-80 flex-shrink-0">
       <div className="flex items-center mb-4">
-        <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
-          <span className="text-lg font-bold text-gray-600">
-            {review.name.split(' ').map(n => n[0]).join('')}
-          </span>
-        </div>
+        <img
+          src={review.avatar}
+          alt={`${review.name} profile`}
+          className="w-12 h-12 rounded-full object-cover mr-4"
+        />
         <div>
           <h4 className="font-semibold text-black">{review.name}</h4>
           <div className="flex items-center">
