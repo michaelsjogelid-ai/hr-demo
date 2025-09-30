@@ -15,15 +15,15 @@ const GoogleReviews = () => {
     {
       id: 2,
       name: "David Thompson",
-      avatar: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
-      rating: 4,
+      avatar: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
+      rating: 5,
       text: "Best barbershop in Bristol! Been coming here for over a year and never disappointed. Great atmosphere, friendly staff, and consistently excellent cuts.",
       date: "1 month ago"
     },
     {
       id: 3,
       name: "Michael Roberts",
-      avatar: "https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
+      avatar: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Top quality service every time. The hot towel shave is incredible and the barbers really take their time to get everything perfect. Highly recommend!",
       date: "3 weeks ago"
@@ -31,15 +31,15 @@ const GoogleReviews = () => {
     {
       id: 4,
       name: "Alex Johnson",
-      avatar: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
-      rating: 4,
+      avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
+      rating: 5,
       text: "Professional, clean, and great value for money. The student discount is a nice touch too. Always leave feeling fresh and looking sharp.",
       date: "1 week ago"
     },
     {
       id: 5,
       name: "Ryan Parker",
-      avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
+      avatar: "https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
       rating: 5,
       text: "Exceptional barbering skills and great customer service. The loyalty program is brilliant - free cut after 5 visits! Will definitely keep coming back.",
       date: "2 months ago"
@@ -47,8 +47,8 @@ const GoogleReviews = () => {
     {
       id: 6,
       name: "Tom Wilson",
-      avatar: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
-      rating: 4,
+      avatar: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face",
+      rating: 5,
       text: "Clean, modern shop with experienced barbers. They really listen to what you want and deliver exactly that. The best fade I've ever had!",
       date: "3 weeks ago"
     }
@@ -99,7 +99,6 @@ const GoogleReviews = () => {
                 ))}
               </div>
               <span className="text-lg font-semibold text-black">5.0</span>
-              <span className="text-lg font-semibold text-black">4.7</span>
               <span className="text-gray-600">• Based on Google Reviews</span>
             </div>
           </div>
