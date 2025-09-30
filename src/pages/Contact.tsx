@@ -153,7 +153,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold text-black mb-6">Location</h2>
               <div className="w-full h-64 rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.8234567890123!2d-2.5987654321098765!3d51.48765432109876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7a1234567%3A0x1234567890abcdef!2s526%20Filton%20Ave%2C%20Bristol%20BS7%200QE%2C%20UK!5e0!3m2!1sen!2suk!4v1234567890123!5m2!1sen!2suk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.123456789!2d-2.5987654!3d51.4876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI5JzE1LjYiTiAywrAzNScxOS42Ilc!5e0!3m2!1sen!2suk!4v1640995200000!5m2!1sen!2suk"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
