@@ -261,31 +261,27 @@ const Appointments = () => {
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-black mb-4 flex items-center">
                 <Clock className="w-5 h-5 mr-2" />
-           {/* Business Hours */}
-<div className="bg-white rounded-xl shadow-lg p-6">
-  <h3 className="text-xl font-bold text-black mb-4 flex items-center">
-    <Clock className="w-5 h-5 mr-2" />
-    Business Hours
-  </h3>
-  <div className="space-y-2 text-gray-600">
-    <div className="flex justify-between">
-      <span>Monday - Friday</span>
-      <span>9:00 AM - 1:00 PM</span>
-    </div>
-    <div className="flex justify-between">
-      <span></span>
-      <span>2:00 PM - 7:00 PM</span>
-    </div>
-    <div className="flex justify-between">
-      <span>Saturday</span>
-      <span>8:00 AM - 6:00 PM</span>
-    </div>
-    <div className="flex justify-between">
-      <span>Sunday</span>
-      <span>10:00 AM - 4:00 PM</span>
-    </div>
-  </div>
-</div>
+                Business Hours
+              </h3>
+              <div className="space-y-2 text-gray-600">
+                <div className="flex justify-between">
+                  <span>Monday - Friday</span>
+                  <span>9:00 AM - 1:00 PM</span>
+                </div>
+                <div className="flex justify-between">
+                  <span></span>
+                  <span>2:00 PM - 7:00 PM</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Saturday</span>
+                  <span>8:00 AM - 6:00 PM</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Sunday</span>
+                  <span>10:00 AM - 4:00 PM</span>
+                </div>
+              </div>
+            </div>
 
             {/* Contact Info */}
             <div className="bg-white rounded-xl shadow-lg p-6">
