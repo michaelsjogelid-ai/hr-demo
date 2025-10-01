@@ -265,20 +265,12 @@ const Appointments = () => {
               </h3>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
+                  <span>Monday - Sunday</span>
                   <span>9:00 AM - 1:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span></span>
                   <span>2:00 PM - 7:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday</span>
-                  <span>8:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>10:00 AM - 4:00 PM</span>
                 </div>
               </div>
             </div>
