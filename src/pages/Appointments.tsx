@@ -287,7 +287,6 @@ const Appointments = () => {
   </div>
 </div>
 
-
             {/* Contact Info */}
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-black mb-4">Contact Info</h3>
