@@ -279,22 +279,6 @@ const Appointments = () => {
               </div>
             </div>
 
-            {/* Services Quick View */}
-            <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold text-black mb-4">Our Services</h3>
-              <div className="space-y-3">
-                {services.slice(0, 6).map((service, index) => (
-                  <div key={index} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
-                    <div>
-                      <p className="font-medium text-black">{service.name}</p>
-                      <p className="text-sm text-gray-500">{service.duration}</p>
-                    </div>
-                    <span className="font-bold text-black">{service.price}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* Contact Info */}
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-black mb-4">Contact Info</h3>
@@ -312,3 +296,4 @@ const Appointments = () => {
 };
 
 export default Appointments;
+
